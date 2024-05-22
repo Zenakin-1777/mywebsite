@@ -45,10 +45,6 @@ section {
 .container {
     width: 80%;
     margin: 0 auto;
-/*
-    padding: 2em 0;
-    text-align: center;
-*/
 }
 
 h2 {
@@ -90,52 +86,6 @@ h2 {
 
 .button:hover {
     background-color: #5e5e5e;
-}
-
-#contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.contact-details {
-    margin-bottom: 2em;
-}
-
-.contact-details p {
-    font-size: 1.2em;
-    margin: 0.5em 0;
-}
-
-form {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-form h2 {
-    margin-bottom: 1em;
-}
-
-label {
-    display: block;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 0.5em;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
 
 footer {
